@@ -1,0 +1,32 @@
+[
+  {
+    "Empid": "NRMT0098", 
+    "No.": 1, 
+    "date": "Tue, 03 May 2022 00:00:00 GMT", 
+    "hrs": 5.0
+  }, 
+  {
+    "Empid": "NRMT0098", 
+    "No.": 2, 
+    "date": "Wed, 04 May 2022 00:00:00 GMT", 
+    "hrs": 6.0
+  }, 
+  {
+    "Empid": "NRMT0098", 
+    "No.": 3, 
+    "date": "Thu, 05 May 2022 00:00:00 GMT", 
+    "hrs": 3.0
+  }, 
+  {
+    "Empid": "NRMT0098", 
+    "No.": 4, 
+    "date": "Fri, 06 May 2022 00:00:00 GMT", 
+    "hrs": 5.0
+  }, 
+  {
+    "Empid": "NRMT0098", 
+    "No.": 4, 
+    "date": "Sat, 07 May 2022 00:00:00 GMT", 
+    "hrs": 4.5
+  }
+]
