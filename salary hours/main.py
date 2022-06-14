@@ -37,12 +37,8 @@ def convert():
        dic1={'date':d}
        date.append(dic1)
     #print(n)
-    print(tim)
-    dic={a[0]:n[0],a[1]:n[1],a[2]:n[2],a[3]:n[3],a[4]:n[4]}
-    #print(dic)
-    #for k in dic.keys():
-    #if k in dic.keys():
-     #   print()
+    h=list(zip(a,n))
+
     fields_name=['Empid','hrs','date']
     time=[
         #{'Empid':e[0],'hrs':a[0],'date':n[0]},
@@ -98,11 +94,8 @@ def convert():
         #{'Empid':e[50],'hrs':a[50],'date':n[50]},
     ]
     with open('time.csv','w') as csvfile:
-        writer=csv.DictWriter(csvfile,fieldnames=fields_name)
-        writer.writeheader()
-        writer.writerows(tim)  
-        writer.writerows(date)   
-        writer.writerows(e)
-    return jsonify(time)
+        writer=csv.writer(csvfile)
+        writer.writerows(h)  
+    return jsonify(h)
 if __name__=="__main__":
     app.run(debug=TRUE)
